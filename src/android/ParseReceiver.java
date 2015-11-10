@@ -15,7 +15,7 @@ public class ParseReceiver extends ParsePushBroadcastReceiver {
             ParsePlugin.sendExtras(extras);
         }
         } catch(JSONException e) {
-            context.error('JSONException');
+            context.error("JSONException");
         }
     }
 }
