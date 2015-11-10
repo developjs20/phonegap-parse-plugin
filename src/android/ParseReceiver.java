@@ -18,7 +18,7 @@ import org.json.JSONException;
 
 import java.util.List;
 
-public class ParsePluginReceiver extends ParsePushBroadcastReceiver
+public class ParseReceiver extends ParsePushBroadcastReceiver
 {
     private static final String TAG = "ParsePluginReceiver";
     private static final String RECEIVED_IN_FOREGROUND = "receivedInForeground";
